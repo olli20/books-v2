@@ -17,7 +17,7 @@ const BookForm = ({onSubmit}) => {
     const handleSubmit = event => {
         event.preventDefault();
         console.log(title, author);
-        onSubmit(title, author);
+        onSubmit({...state});
         setState({...initialState});
     }
 

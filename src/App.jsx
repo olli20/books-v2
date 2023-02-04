@@ -5,8 +5,8 @@ import './App.scss';
 function App() {
   return (
     <div>
-      <Books />
-      {/* <PostsSearch /> */}
+      {/* <Books /> */}
+      <PostsSearch />
     </div>
   );
 }

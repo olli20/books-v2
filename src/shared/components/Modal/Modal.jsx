@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 import styles from './modal.module.scss';
 
-const modalRoot = document.querySelector('#modal-root');
+const modalRoot = document.querySelector('#root-modal');
 
 class Modal extends Component {
 
